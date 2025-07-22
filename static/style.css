@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(138deg, #667eea 0%, #764ba2 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+.navbar, .header, nav {
+    background-color: #000000 !important;
+}
+
+/* Enhanced form container */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Form title styling */
+.container h1, .container h2 {
+    color: #2d3748;
+    font-weight: 700;
+    margin-bottom: 32px;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Form group spacing */
+.col, .form-group {
+    margin-bottom: 24px;
+}
+
+/* Enhanced label styling */
+.form-label, label {
+    display: block;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Modern input styling */
+.form-control, input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #f8fafc;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.form-control:focus, input:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Enhanced select dropdown styling */
+.form-select, select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #f8fafc;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    appearance: none;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.form-select:focus, select:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Modern submit button */
+button[type="submit"], .btn-primary {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 24px;
+}
+
+button[type="submit"]:hover, .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+button[type="submit"]:active, .btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Input placeholder styling */
+input::placeholder, select::placeholder {
+    color: #a0aec0;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 24px;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
+    
+    .container h1, .container h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+/* Additional utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+
