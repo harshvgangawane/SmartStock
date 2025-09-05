@@ -1,4 +1,4 @@
-# Customer Churn Prediction System
+# SmartStock-An Inventory Management System
 
 ## Problem Statement
 Businesses often struggle with inventory management. Overstocking leads to tied-up capital and waste, while understocking leads to lost sales and unhappy customers. Manual methods or basic systems fail to account for real-time demand, pricing changes, seasonality, and other factors like weather or holidays.
