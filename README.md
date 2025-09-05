@@ -36,7 +36,7 @@ css
 **Step 1. Clone the repository.**
 ```powershell
 git clone https://https://github.com/harshvgangawane/SmartStock.git
-cd "Customer Churn Prediction"
+cd "SmartStock"
 ```
 **Step 2. (Optional) Create a virtual environment.**
 ```powershell
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ```
 **Step 4. Run the Streamlit app**
 ```powershell
-streamlit run app.py
+python app.py
 ```
 
 ## Project Architecture
